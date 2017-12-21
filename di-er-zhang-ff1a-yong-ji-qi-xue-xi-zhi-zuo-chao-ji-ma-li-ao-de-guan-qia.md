@@ -80,11 +80,7 @@ return price
 
 ![](https://pic1.zhimg.com/50/v2-c7a90ccddf0c3208caa45b561198d0c8_hd.jpg)
 
-我们现在就结合了解决同一问题的方法四种不同方法，得到的一个「
-
-**超级答案**
-
-」。正是由于此，我们才能够用它来模拟更多不同的情况。
+我们现在就结合了解决同一问题的方法四种不同方法，得到的一个「**超级答案**」。正是由于此，我们才能够用它来模拟更多不同的情况。
 
 
 
@@ -164,11 +160,7 @@ Robert Cohn was once middleweight boxi
 
 ![](https://pic1.zhimg.com/50/v2-767363cfc33ac56e981564d4bf728a19_hd.jpg)
 
-下一个最有可能的字母是「
-
-t
-
-」。
+下一个最有可能的字母是「t」。
 
 
 
@@ -184,121 +176,121 @@ t
 
 当我们刚开始训练 RNN 的时候，它猜测的并不准确。这是它经过 100 个循环训练之后的结果：
 
-hjCTCnhoofeoxelif edElobe negnk e iohehasenoldndAmdaI ayio pe e h’e btentmuhgehi bcgdltt. gey heho grpiahe.
+>hjCTCnhoofeoxelif edElobe negnk e iohehasenoldndAmdaI ayio pe e h’e btentmuhgehi >bcgdltt. gey heho grpiahe.
 
-Ddelnss.eelaishaner” cot AAfhB ht ltny
+>Ddelnss.eelaishaner” cot AAfhB ht ltny
 
-ehbih a”on bhnte ectrsnae abeahngy
+>ehbih a”on bhnte ectrsnae abeahngy
 
-amo k ns aeo?cdse nh a taei.rairrhelardr er deffijha \[2\]
+>amo k ns aeo?cdse nh a taei.rairrhelardr er deffijha \[2\]
 
 你可以看到的是机器已经知道单词之间应该有空格，这正是我们想要的。
 
 1000 个循环之后，结果看起来更靠谱一点：
 
-hing soor ither. And the caraos, and the crowebel for figttier and ale the room of me? Streat was not to him Bill-stook of the momansbed mig out ust on the bull, out here. I been soms
+>hing soor ither. And the caraos, and the crowebel for figttier and ale the room of me? >Streat was not to him Bill-stook of the momansbed mig out ust on the bull, out here. I >been soms
 
-inick stalling that aid.
+>inick stalling that aid.
 
-“Hon’t me and acrained on .Hw’s don’t you for the roed,” In’s pair.”
+>“Hon’t me and acrained on .Hw’s don’t you for the roed,” In’s pair.”
 
-“Alough marith him.”\[3\]
+>“Alough marith him.”\[3\]
 
 我们的模型已经开始识别出句子的基本构成模式了。它已经学会给句子加上句号，甚至学会了用引号。还成功的拼出了一些单词，但大部分依然在胡扯。
 
 经过几千次交互训练之后，他看起来很棒：
 
-He went over to the gate of the café. It was like a country bed.
+>He went over to the gate of the café. It was like a country bed.
 
-“Do you know it’s been me.”
+>“Do you know it’s been me.”
 
-“Damned us,” Bill said.
+>“Damned us,” Bill said.
 
-“I was dangerous,” I said. “You were she did it and think I would a fine cape you,” I said.
+>“I was dangerous,” I said. “You were she did it and think I would a fine cape you,” I >said.
 
-“I can’t look strange in the cab.”
+>“I can’t look strange in the cab.”
 
-“You know I was this is though,” Brett said.
+>“You know I was this is though,” Brett said.
 
-“It’s a fights no matter?”
+>“It’s a fights no matter?”
 
-“It makes to do it.”
+>“It makes to do it.”
 
-“You make it?”
+>“You make it?”
 
-“Sit down,” I said. “I wish I wasn’t do a little with the man.”
+>“Sit down,” I said. “I wish I wasn’t do a little with the man.”
 
-“You found it.”
+>“You found it.”
 
-“I don’t know.”
+>“I don’t know.”
 
-“You see, I’m sorry of chatches,” Bill said. “You think it’s a friend off back and make you really drunk.”
+>“You see, I’m sorry of chatches,” Bill said. “You think it’s a friend off back and >make you really drunk.”
 
-他跑到了咖啡厅的门口。它像是一个乡下的床一样。
+>他跑到了咖啡厅的门口。它像是一个乡下的床一样。
 
-「你知道那是我。」
+>「你知道那是我。」
 
-「诅咒我们，」比尔说。
+>「诅咒我们，」比尔说。
 
-「我曾经很危险，」我说。「你是她做了它并且认为我会一个好的海角你，」我说。
+>「我曾经很危险，」我说。「你是她做了它并且认为我会一个好的海角你，」我说。
 
-「我不能在出租车里看起来奇怪」
+>「我不能在出租车里看起来奇怪」
 
-「你知道我是这个虽然，」布拉特说。
+>「你知道我是这个虽然，」布拉特说。
 
-「它是一个打架不重要？」
+>「它是一个打架不重要？」
 
-「它让去做它」
+>「它让去做它」
 
-「你做的？」
+>「你做的？」
 
-「坐下，」我说。「我希望我没有和那个男人做一点。」
+>「坐下，」我说。「我希望我没有和那个男人做一点。」
 
-「你找到了它。」
+>「你找到了它。」
 
-「我不知道。」
+>「我不知道。」
 
-「你看，我对 chatches（英文中没有 chatches 这个词）感到抱歉，」比尔说道。「你认为它是一个朋友后面并且它真的让你醉」
+>「你看，我对 chatches（英文中没有 chatches 这个词）感到抱歉，」比尔说道。「你认为它是一个朋友后面并且>它真的让你醉」
 
 到此时，算法已经收集到了海明威写作的基本风格——简短而直接的对话形式。甚至有一些话语开始能被人类理解。
 
 和原文中的句子作比较：
 
-There were a few people inside at the bar, and outside, alone, sat Harvey Stone. He had a pile of saucers in front of him, and he needed a shave.
+>There were a few people inside at the bar, and outside, alone, sat Harvey Stone. He >had a pile of saucers in front of him, and he needed a shave.
 
-“Sit down,” said Harvey, “I’ve been looking for you.”
+>“Sit down,” said Harvey, “I’ve been looking for you.”
 
-“What’s the matter?”
+>“What’s the matter?”
 
-“Nothing. Just looking for you.”
+>“Nothing. Just looking for you.”
 
-“Been out to the races?”
+>“Been out to the races?”
 
-“No. Not since Sunday.”
+>“No. Not since Sunday.”
 
-“What do you hear from the States?”
+>“What do you hear from the States?”
 
-“Nothing. Absolutely nothing.”
+>“Nothing. Absolutely nothing.”
 
-“What’s the matter?”
+>“What’s the matter?”
 
-有几个人在里面酒吧间内，哈维·斯通独自在外面坐着。他面前放着一大堆小碟子，他需要刮刮脸了。
+>有几个人在里面酒吧间内，哈维·斯通独自在外面坐着。他面前放着一大堆小碟子，他需要刮刮脸了。
 
-「坐下吧，」哈维说，「我正在找你。」
+>「坐下吧，」哈维说，「我正在找你。」
 
-「什么事？」
+>「什么事？」
 
-「没事儿。只不过找你来着。」
+>「没事儿。只不过找你来着。」
 
-「去看赛马啦？」
+>「去看赛马啦？」
 
-「没有。星期天以来再没去过。」
+>「没有。星期天以来再没去过。」
 
-「美国有信来吗？」
+>「美国有信来吗？」
 
-「没有。毫无音信。」
+>「没有。毫无音信。」
 
-「怎么啦？」
+>「怎么啦？」
 
 即使我们只是寻找**每个字符之间**的规律，我们的算法也已经用恰当的格式重新出一篇看起来可信的文章。这非常厉害！
 
@@ -369,31 +361,20 @@ There were a few people inside at the bar, and outside, alone, sat Harvey Stone.
 
 我们可以简单的把这些网格表示成一序列字符，每一个字符都代表着一个物品：
 
-
-
+```
 --------------------------
-
 --------------------------
-
 --------------------------
-
-\#??\#----------------------
-
+#??#----------------------
 --------------------------
-
 --------------------------
-
 --------------------------
-
--\#\#------=--=----------==-
-
+-##------=--=----------==-
 --------==--==--------===-
-
 -------===--===------====-
-
 ------====--====----=====-
-
 =========================-
+```
 
 我们把物品换成了下列字母：
 
@@ -435,49 +416,30 @@ There were a few people inside at the bar, and outside, alone, sat Harvey Stone.
 
 为了训练模型，我需要把这个文本文档旋转 90 度。这样一来就保证了这些字符被输入进模型之后，模型能够更容易找到其中的规律。
 
+```
 -----------=
-
--------\#---=
-
--------\#---=
-
+-------#---=
+-------#---=
 -------?---=
-
--------\#---=
-
+-------#---=
 -----------=
-
 -----------=
-
 ----------@=
-
 ----------@=
-
 -----------=
-
 -----------=
-
 -----------=
-
 ---------PP=
-
 ---------PP=
-
 ----------==
-
 ---------===
-
 --------====
-
 -------=====
-
 ------======
-
 -----=======
-
 ---=========
-
 ---=========
+```
 
 ## 训练我们的模型
 
@@ -485,73 +447,52 @@ There were a few people inside at the bar, and outside, alone, sat Harvey Stone.
 
 经过一点点的训练，我们的模型生成了一堆垃圾：
 
+```
 --------------------------
-
-LL+&lt;&=------P-------------
-
+LL+<&=------P-------------
 --------
-
----------------------T--\#--
-
+---------------------T--#--
 -----
-
 -=--=-=------------=-&--T--------------
-
 --------------------
-
---=------$-=\#-=-\_
-
---------------=----=&lt;----
-
+--=------$-=#-=-_
+--------------=----=<----
 -------b
-
 -
+```
 
 它好像理解了应该有很多的「-」和「=」的思路，这已经很好了。但是还没有找到规律。
 
 经过几千个循环之后，它开始变得有模有样了：
 
+```
 --
-
 -----------=
-
 ----------=
-
 --------PP=
-
 --------PP=
-
 -----------=
-
 -----------=
-
 -----------=
-
 -------?---=
-
 -----------=
-
 -----------=
+```
 
 模型几乎已经知道每一行应该有相同的长度。它甚至开始找出马里奥的一些逻辑：管道（绿色的管子）经常是两格宽，并且至少有两格那么高，所以数据里面的「P」应该以一种 2×2 的方格形式出现。这非常酷炫！
 
 经过大量的训练之后，模型开始能生成完美的可用数据：
 
+```
 --------PP=
-
 --------PP=
-
 ----------=
-
 ----------=
-
 ----------=
-
 ---PPP=---=
-
 ---PPP=---=
-
 ----------=
+```
 
 让我们用我们的模型来创造一整个关卡，并把它们横过来：
 
