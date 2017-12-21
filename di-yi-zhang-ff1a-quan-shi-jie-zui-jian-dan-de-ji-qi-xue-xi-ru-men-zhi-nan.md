@@ -128,48 +128,32 @@ def estimate_house_sales_price(num_of_bedrooms, sqft, neighborhood):
  return price
 ```
 
+假如你像这样瞎忙几个小时，最后也许会得到一些像模像样的东西。但是你的程序永不会完美，而且当价格变化时很难维护。
+
+如果能让计算机找出实现上述函数功能的办法，岂不更好？只要返回的房价数字正确，谁会在乎函数具体干了些什么呢？
+
+```
+def estimate_house_sales_price(num_of_bedrooms, sqft, neighborhood):
+  price = <计算机，请帮我算点数学题>
+  return price
+```
+
 考虑这个问题的一种角度是将**价格**看作一碗美味的汤，而汤的原材料就是**卧室数量、面积和地段**。如果你能算出每种原材料对最终的价格有多大影响，也许就能得到各种原材料混合形成最终价格的具体比例。
 
 这样可以将你最初的程序（全是令人抓狂的 if else 语句）简化成类似如下的样子：
 
 ```
-def
-estimate_house_sales_price
-(
-num_of_bedrooms
-,
-sqft
-,
-neighborhood
-):
-price
-=
-0
-# 一小撮这个
-price
-+=
-num_of_bedrooms
-*
-.
-841231951398213
-# 一大撮那个
-price
-+=
-sqft
-*
-1231.1231231
-# 或许再加一把这个
-price
-+=
-neighborhood
-*
-2.3242341421
-# 最后，再多加一点点盐
-price
-+=
-201.23432095
-return
-price
+def estimate_house_sales_price(num_of_bedrooms, sqft, neighborhood):
+ price = 0
+ # 一小撮这个
+ price += num_of_bedrooms * .841231951398213
+ # 一大撮那个
+ price += sqft * 1231.1231231
+ # 或许再加一把这个
+ price += neighborhood * 2.3242341421
+ # 最后，再多加一点点盐
+ price += 201.23432095
+ return price
 ```
 
 注意那些用粗体标注的神奇数字——**.841231951398213, 1231.1231231, 2.3242341421, 和201.23432095**。它们称为**权重（weight）**。如果我们能找出对每栋房子都适用的完美权重，我们的函数就能预测所有的房价！\[3\]
@@ -181,42 +165,17 @@ price
 首先，将每个权重都设为 1.0：
 
 ```
-def
-estimate_house_sales_price
-(
-num_of_bedrooms
-,
-sqft
-,
-neighborhood
-):
-price
-=
-0
-# 一小撮这个
-price
-+=
-num_of_bedrooms
-*
-1.0
-# 一大撮那个
-price
-+=
-sqft
-*
-1.0
-# 或许再加一把这个
-price
-+=
-neighborhood
-*
-1.0
-# 最后，再多加一点点盐
-price
-+=
-1.0
-return
-price
+def estimate_house_sales_price(num_of_bedrooms, sqft, neighborhood):
+  price = 0
+  # 一小撮这个
+  price += num_of_bedrooms * 1.0
+  # 一大撮那个
+  price += sqft * 1.0
+  # 或许再加一把这个
+  price += neighborhood * 1.0
+  # 最后，再多加一点点盐
+  price += 1.0
+  return price
 ```
 
 **第二步：**
