@@ -1,3 +1,4 @@
+#第五章：Google 翻译背后的黑科技：神经网络和序列到序列学习
 作者：[Adam Geitgey](http://link.zhihu.com/?target=https%3A//medium.com/%40ageitgey%3Fsource%3Dpost_header_lockup)
 
 原文：[https://medium.com/@ageitgey/machine-learning-is-fun-part-5-language-translation-with-deep-learning-and-the-magic-of-sequences-2ace0acca0aa\#.223irmdz0](http://link.zhihu.com/?target=https%3A//medium.com/%40ageitgey/machine-learning-is-fun-part-5-language-translation-with-deep-learning-and-the-magic-of-sequences-2ace0acca0aa%23.223irmdz0)
@@ -70,9 +71,7 @@ Google 翻译背后的技术被称为机器翻译。它改变了世界，让本�
 
 ![](https://pic3.zhimg.com/50/v2-d4e33c806b1626815442eb1ad649aefa_hd.jpg)
 
-训练数据通常令人兴奋！但这只是无数条干巴巴的政府文件而已
-
-……
+训练数据通常令人兴奋！但这只是无数条干巴巴的政府文件而已……
 
 
 
