@@ -1,4 +1,5 @@
 #第五章：Google 翻译背后的黑科技：神经网络和序列到序列学习
+
 作者：[Adam Geitgey](http://link.zhihu.com/?target=https%3A//medium.com/%40ageitgey%3Fsource%3Dpost_header_lockup)
 
 原文：[https://medium.com/@ageitgey/machine-learning-is-fun-part-5-language-translation-with-deep-learning-and-the-magic-of-sequences-2ace0acca0aa\#.223irmdz0](http://link.zhihu.com/?target=https%3A//medium.com/%40ageitgey/machine-learning-is-fun-part-5-language-translation-with-deep-learning-and-the-magic-of-sequences-2ace0acca0aa%23.223irmdz0)

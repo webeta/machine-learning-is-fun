@@ -1,4 +1,5 @@
 #第四章：用深度学习识别人脸
+
 作者：[Adam Geitgey](http://link.zhihu.com/?target=https%3A//medium.com/%40ageitgey%3Fsource%3Dpost_header_lockup)
 
 原文：[https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78\#.ugpgrc4eq](http://link.zhihu.com/?target=https%3A//medium.com/%40ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78%23.ugpgrc4eq)

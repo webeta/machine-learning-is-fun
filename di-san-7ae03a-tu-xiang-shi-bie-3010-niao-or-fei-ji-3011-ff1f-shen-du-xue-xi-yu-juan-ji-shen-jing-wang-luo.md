@@ -1,4 +1,5 @@
 #第三章：图像识别【鸟or飞机】？深度学习与卷积神经网络
+
 作者：[Adam Geitgey](https://link.zhihu.com/?target=https%3A//medium.com/%40ageitgey%3Fsource%3Dpost_header_lockup)
 
 原文：[https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721\#.3n9dohehj](https://link.zhihu.com/?target=https%3A//medium.com/%40ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721%23.3n9dohehj)
