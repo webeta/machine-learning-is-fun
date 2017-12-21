@@ -106,99 +106,26 @@
 如果对机器学习一无所知，你很有可能会尝试写出一些基本规则来评估房价，如下：
 
 ```
-def
-estimate_house_sales_price
-(
-num_of_bedrooms
-,
-sqft
-,
-neighborhood
-):
-price
-=
-0
-# 在我这地方，每平方英尺房屋均价是 200 美元
-price_per_sqft
-=
-200
-if
-neighborhood
-==
-"hipsterton"
-:
-#
-但是有些地段房价会贵一点
-price_per_sqft
-=
-400
-elif
-neighborhood
-==
-"skid row"
-:
-#
-有些地段房价便宜点
-price_per_sqft
-=
-100
-# 我们先按面积大小估计房屋价格基准
-price
-=
-price_per_sqft
-*
-sqft
-# 现在根据卧室数量微调价格
-if
-num_of_bedrooms
-==
-0
-:
-#
-工作室类型的公寓比较便宜
-price
-=
-price
- — 
-20000
-else
-:
-#
-卧室数量越多，通常房价越贵
-price
-=
-price
-+
-(
-num_of_bedrooms
-*
-1000
-)
-return
-price
-```
-
-假如你像这样瞎忙几个小时，最后也许会得到一些像模像样的东西。但是你的程序永不会完美，而且当价格变化时很难维护。
-
-如果能让计算机找出实现上述函数功能的办法，岂不更好？只要返回的房价数字正确，谁会在乎函数具体干了些什么呢？
-
-```
-def
-estimate_house_sales_price
-(
-num_of_bedrooms
-,
-sqft
-,
-neighborhood
-):
-price
-=
-<
-计算机，请帮我算点数学题
->
-return
-price
+def estimate_house_sales_price(num_of_bedrooms, sqft, neighborhood):
+  price = 0
+  # 在我这地方，每平方英尺房屋均价是 200 美元
+  price_per_sqft = 200
+  if neighborhood == "hipsterton":
+    # 但是有些地段房价会贵一点
+    price_per_sqft = 400
+  elif neighborhood == "skid row":
+    # 有些地段房价便宜点
+    price_per_sqft = 100
+  # 我们先按面积大小估计房屋价格基准
+  price = price_per_sqft * sqft
+  # 现在根据卧室数量微调价格
+  if num_of_bedrooms == 0:
+    # 工作室类型的公寓比较便宜
+    price = price — 20000
+  else:
+    # 卧室数量越多，通常房价越贵
+    price = price + (num_of_bedrooms * 1000)
+ return price
 ```
 
 考虑这个问题的一种角度是将**价格**看作一碗美味的汤，而汤的原材料就是**卧室数量、面积和地段**。如果你能算出每种原材料对最终的价格有多大影响，也许就能得到各种原材料混合形成最终价格的具体比例。
