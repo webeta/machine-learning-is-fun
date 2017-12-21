@@ -1,3 +1,4 @@
+#第三章：图像识别【鸟or飞机】？深度学习与卷积神经网络
 作者：[Adam Geitgey](https://link.zhihu.com/?target=https%3A//medium.com/%40ageitgey%3Fsource%3Dpost_header_lockup)
 
 原文：[https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721\#.3n9dohehj](https://link.zhihu.com/?target=https%3A//medium.com/%40ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721%23.3n9dohehj)
@@ -48,14 +49,7 @@ xkcd\#1425（出自[http://xkcd.com](https://link.zhihu.com/?target=http%3A//xkc
 
 MNIST
 
-数据库中的数字
-
-「
-
-8
-
-」
-
+数据库中的数字「8」
 
 
 ### 万物皆「数」
@@ -142,15 +136,7 @@ MNIST
 
 ![](https://pic5.zhimg.com/50/v2-9f0747a9a620a97c3f611d59c096e020_hd.jpg)
 
-通过组合不同版本的训练图片，我们创造出了
-
-**合成训练数据**
-
-（
-
-Synthetic Training Data
-
-）。这是一种非常实用的技巧！
+通过组合不同版本的训练图片，我们创造出了**合成训练数据**（Synthetic Training Data）。这是一种非常实用的技巧！
 
 
 
@@ -164,11 +150,7 @@ Synthetic Training Data
 
 ![](https://pic4.zhimg.com/50/v2-4d7953ba68bbad48f42cbc3dcb0a1d42_hd.jpg)
 
-因为它比传统的神经网络层数更多，所以我们把它称作「
-
-**深度神经网络」**
-
-（deep neural network）。
+因为它比传统的神经网络层数更多，所以我们把它称作「**深度神经网络」**（deep neural network）。
 
 
 
@@ -239,11 +221,7 @@ Synthetic Training Data
 
 ![](https://pic1.zhimg.com/50/v2-28ae94443605e1493b8a12bfb9de754c_hd.jpg)
 
-重复这个步骤
-
-77
-
-次，每次判断一张小图块。
+重复这个步骤 77 次，每次判断一张小图块。
 
 
 
@@ -273,11 +251,7 @@ Synthetic Training Data
 
 [最大池化](https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Convolutional_neural_network%23Pooling_layer)
 
-（max pooling）的函数来
-
-**降采样**
-
-（downsample）。它听起来很棒，但这仍旧不够！
+（max pooling）的函数来**降采样**（downsample）。它听起来很棒，但这仍旧不够！
 
 
 
