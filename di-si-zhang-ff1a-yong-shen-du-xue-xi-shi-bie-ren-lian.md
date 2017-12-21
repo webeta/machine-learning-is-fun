@@ -1,3 +1,4 @@
+#第四章：用深度学习识别人脸
 作者：[Adam Geitgey](http://link.zhihu.com/?target=https%3A//medium.com/%40ageitgey%3Fsource%3Dpost_header_lockup)
 
 原文：[https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78\#.ugpgrc4eq](http://link.zhihu.com/?target=https%3A//medium.com/%40ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78%23.ugpgrc4eq)
@@ -28,15 +29,7 @@ Facebook
 
 ![](https://pic2.zhimg.com/50/v2-e84573d2222b7230b549bd309f1fe8f1_hd.jpg)
 
-其中一个人是威尔
-
-·
-
-法瑞尔，另一个是查德
-
-·
-
-史密斯。我保证他们不是同一个人！
+其中一个人是威尔·法瑞尔，另一个是查德·史密斯。我保证他们不是同一个人！
 
 
 
@@ -60,13 +53,7 @@ Facebook
 
 ![](https://pic4.zhimg.com/50/v2-8d1a51a83179a822ffd6d79f890bd9dd_hd.jpg)
 
-计算机还不具备这种高级泛化能力（
-
-**至少现在还不行**
-
-**……**
-
-），所以我们必须手把手一步一步教它们怎么做。
+计算机还不具备这种高级泛化能力（**至少现在还不行****……**），所以我们必须手把手一步一步教它们怎么做。
 
 
 
@@ -132,11 +119,7 @@ Facebook
 
 ![](https://pic3.zhimg.com/50/v2-8689fae65dee70b69a3957657e4d7f78_hd.jpg)
 
-用梯度来代替像素这事看起来没有明确目的，但其实背后的理由很充分。如果我们直接分析像素，同一个人明暗不同的两张照片将具有完全不同的像素值。但是如果只考虑亮度变化
-
-**方向**
-
-（direction）的话，明暗图像将会有同样的结果。这使得问题变得更容易解决！
+用梯度来代替像素这事看起来没有明确目的，但其实背后的理由很充分。如果我们直接分析像素，同一个人明暗不同的两张照片将具有完全不同的像素值。但是如果只考虑亮度变化**方向**（direction）的话，明暗图像将会有同样的结果。这使得问题变得更容易解决！
 
 
 
@@ -150,11 +133,7 @@ Facebook
 
 ![](https://pic4.zhimg.com/50/v2-96c35183fd683842c572e83f023964a9_hd.jpg)
 
-原始图像被表示成了
-
-HOG
-
-形式，以捕获图像的主要特征，无论图像明暗度如何。
+原始图像被表示成了 HOG 形式，以捕获图像的主要特征，无论图像明暗度如何。
 
 
 
@@ -196,15 +175,7 @@ HOG
 
 ![](https://pic2.zhimg.com/50/v2-eb20417cb7f59ba2beb6f12e4bf19e02_hd.jpg)
 
-友情提示：你也可以使用这一技术来实现自己的
-
-Snapchat
-
-实时
-
-3D
-
-脸部过滤器！
+友情提示：你也可以使用这一技术来实现自己的 Snapchat 实时 3D 脸部过滤器！
 
 
 
@@ -293,11 +264,7 @@ Snapchat
 
 ![](https://pic2.zhimg.com/50/v2-61b8af810e1cacee40a634312bab6f11_hd.jpg)
 
-嗯
-
-……
-
-就是这些训练数据！
+嗯……就是这些训练数据！
 
 
 
