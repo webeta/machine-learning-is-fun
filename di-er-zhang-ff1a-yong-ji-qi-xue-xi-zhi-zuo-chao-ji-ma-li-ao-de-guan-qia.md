@@ -302,11 +302,7 @@ Robert Cohn was once middleweight boxi
 
 ![](https://pic3.zhimg.com/50/v2-1202b87f0e551fd29a14d29f06a96bcd_hd.jpg)
 
-真书在左，看起来傻乎乎的假书在右。
-
-\[4\]
-
-
+真书在左，看起来傻乎乎的假书在右。\[4\]
 
 看起来不错呀！
 
