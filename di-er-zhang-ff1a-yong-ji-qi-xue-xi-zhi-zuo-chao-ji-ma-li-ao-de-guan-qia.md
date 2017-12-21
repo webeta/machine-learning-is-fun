@@ -37,38 +37,15 @@
 
 
 ```
-def
-estimate_house_sales_price
-(
-num_of_bedrooms
-,
-sqft
-,
-neighborhood
-):
-price
-=
-0
+def estimate_house_sales_price(num_of_bedrooms, sqft, neighborhood):
+ price = 0
 # 一小撮这个
-price
-+=
-num_of_bedrooms
-*
-0.123
+ price += num_of_bedrooms * 0.123
 # 一大撮这个
-price
-+=
-sqft
-*
-0.41
+ price += sqft * 0.41
 # 也许再来一把这个
-price
-+=
-neighborhood
-*
-0.57
-return
-price
+ price += neighborhood * 0.57
+return price
 ```
 
 换句话说，我们把决定房屋价格的因素乘以它的**权重**，再把这些乘积求和，就可以得到房子的预估价格了。
