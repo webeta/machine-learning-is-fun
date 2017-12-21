@@ -345,11 +345,7 @@ Robert Cohn was once middleweight boxi
 
 ![](https://pic4.zhimg.com/50/v2-63074bcbd30b1a66a57e881ac8f22589_hd.jpg)
 
-这个就是游戏的第一关（如果你玩过超级马里奥，你应该会记得）：
-
-超级马里奥关卡
-
-1-1
+这个就是游戏的第一关（如果你玩过超级马里奥，你应该会记得）：超级马里奥关卡 1-1
 
 
 
