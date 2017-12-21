@@ -1,4 +1,4 @@
-#第四章：用深度学习识别人脸
+# 第四章：用深度学习识别人脸
 
 作者：[Adam Geitgey](http://link.zhihu.com/?target=https%3A//medium.com/%40ageitgey%3Fsource%3Dpost_header_lockup)
 
